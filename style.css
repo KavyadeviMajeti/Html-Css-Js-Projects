@@ -18,6 +18,7 @@ body{
     /* ikkada flex pettadam valla, total container lo center ki pettadam jarugutundi */
 
 }
+
 .game{
     height:60vmin;/*container mottam height manam vadatamledhu,,only 60% vadatannam*/
     width:60vmin;/*width mention cheyyakapothe ,buttons will occupy entire 100%,kani manaki columns form lo ravanlante width mention cheyyali-- each buttton ki 18 width and 18 height kabatti 18*3=54 ~ 60 widht ,,,18*3=54 ~60 height*/
@@ -42,6 +43,28 @@ body{
     font-size:1.25rem;/* 1.25rem means  1.25*16px = 24px */
     background-color: #7a1197;
     color:#f5ebf4;
+    font-weight: 900;
 
 }
+.msg-container{
+    margin-bottom:1.5rem;
+   height:30vmin;
+}
+#new{
+    padding:1rem;
+    font-size:1.25rem;/* 1.25rem means  1.25*16px = 24px */
+    background-color: #7a1197;
+    color:#f5ebf4;
+    font-weight:900;
 
+
+}
+#msg{
+    color: #a4133c;
+    font-size:8vmin;
+    font-weight:900;
+}
+
+.hide{
+    display:none; /*hide cheyyali ante, display none pettali, so that it will not take any space in the layout, winner telisaka tarvata we set display:block -->then content visible */
+}
