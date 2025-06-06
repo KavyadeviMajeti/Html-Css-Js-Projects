@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+   /* font-family: 'Poppins', sans-serif; */
+    background-color:#ca61c3;
+    text-align: center;
+
+
+}
+.container{
+    height:70vh;/*70% of viewport height---danilo 10% space unchi --migatha 60% lo 3 rows --i.e each row height -18%*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* ikkada flex pettadam valla, total container lo center ki pettadam jarugutundi */
+
+}
+.game{
+    height:60vmin;/*container mottam height manam vadatamledhu,,only 60% vadatannam*/
+    width:60vmin;/*width mention cheyyakapothe ,buttons will occupy entire 100%,kani manaki columns form lo ravanlante width mention cheyyali-- each buttton ki 18 width and 18 height kabatti 18*3=54 ~ 60 widht ,,,18*3=54 ~60 height*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap; /*buttons ni wrap cheyyali, i.e 3 buttons in a row*/
+    gap:1.5vmin;
+    /* ikada flex valla buttons ni center lo pettadam jarugutundi, and gap valla buttons madhya space untundi */
+}
+.box{
+    height:18vmin;
+    width:18vmin; /*button normal very small..peddaga kanipinchalante give width and height*/
+    border-radius:1rem; /* 1rem=16px; */
+    border:none;/*button ki default black border untadi, adi remove cheyyadaniki pedatam*/
+    box-shadow:0 0 1rem rgba(0,0,0,0.3); 
+    font-size:8vmin;/*8vmin means 8% of viewport width or height, so it will be responsive */
+    color: #34063f;
+}
+#reset{
+    padding:1rem;
+    font-size:1.25rem;/* 1.25rem means  1.25*16px = 24px */
+    background-color: #7a1197;
+    color:#f5ebf4;
+
+}
+
