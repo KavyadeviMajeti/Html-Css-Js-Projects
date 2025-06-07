@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #a6cfd5;
+   
+}
+
+#header{
+    background-color: #465362;
+    color: white;
+    padding:20px;
+    text-align: center;
+    margin-bottom:40px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;    /* 1rem= 16px ,,manaki 40px kavalante- 40px/16 = 2.5rem    */
+    /* First entha px unte bagunthado chusukoni ,,,tarvatha convert into rem --for responsive web design */
+    margin-bottom:2rem;/* 1rem= 16px ,, 32px/16 = 2rem    */
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    
+}
+.scores{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top:4rem;
+}
+#user-score,#comp-score{
+    font-size: 2.5rem;
+    text-align:center;
+}
+.text{
+    font-size:1.5rem;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem; /* 1rem= 16px ,, 32px/16 = 2rem    */
+    
+
+}
+#result-text{
+    color: white;
+    font-size: 1.5rem;
+    background-color: darkslategrey;
+    padding: 0.5rem 1rem; /* 1rem= 16px ,,8px kavalante-- 8px/16 = 0.5rem , 16 px kavalante---16px/16 = 1rem */
+    margin-top:3rem;
+}
+

@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <div class="header">Rock Paper Scissors</div>
+    <div id="header"><h1>Rock Paper Scissors</h1></div>
     <div class="container">
         <div class="images">
-            <img src="rock.png" alt="Rock" id="rock" class="image">
-            <img src="paper.png" alt="Paper" id="paper" class="image">
-            <img src="scissors.png" alt="Scissors" id="scissors" class="image">
+            <img src="assets/rock.png" alt="Rock" id="rock" class="image">
+            <img src="assets/paper.png" alt="Paper" id="paper" class="image">
+            <img src="assets/scissors.png" alt="Scissors" id="scissors" class="image">
+        </div>
+        <div class="scores">
+            <div class="score-board">
+                <p id="user-score">0</p>
+                <p class="text">Your Score</p>
+            </div>
+            <div class="score-board">
+                <p id="comp-score">0</p>
+                <p class="text">Computer Score</p>
+            </div>
         </div>
 
+        <div class="result">
+            <p id="result-text">Make your move!</p>
+        </div>
 
-    </div>
+ </div>
     
 </body>
 </html>
