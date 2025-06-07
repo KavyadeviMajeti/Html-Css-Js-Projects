@@ -73,8 +73,7 @@ const checkWinner = () => {
         if(val1.innerText!=' '&&val2.innerText!=' '&&val3.innerText!=' ' ) {//three boxes kaliga unna --inner text '' nothing --and print winner --but it is not correct --so we kept !=,,ante 3 box values kali kakapothe
            
             if(val1.innerText === val2.innerText && val2.innerText === val3.innerText) {//if all three boxes have the same value
-                   /* alert(`Player ${val1} wins!`); //alert the winner
-                    return; //exit the function after declaring the winner */
+                   
                 showWinner(val1);
 
                 
