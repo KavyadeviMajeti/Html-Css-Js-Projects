@@ -30,6 +30,12 @@ body{
     border-radius:50%;
     
 }
+.image:hover{
+    transform: scale(1.1); /* 1.1 times bigger on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+    border: 5px solid #465362;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 .scores{
     display:flex;
     align-items: center;
@@ -37,9 +43,9 @@ body{
     gap: 4rem;
     margin-top:4rem;
 }
-#user-score,#comp-score{
+#user-score,#comp-score,#ties,#rounds{
     font-size: 2.5rem;
-    text-align:center;
+    text-align:center;/* Normal ga score center lo undhadhu,, center lo ki ravalante keep text align center*/
 }
 .text{
     font-size:1.5rem;
