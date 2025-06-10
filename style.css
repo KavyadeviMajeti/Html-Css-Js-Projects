@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    /* margin:0; */
     padding:0;
     box-sizing:border-box;
 }
@@ -37,6 +37,7 @@ body{
     box-shadow:0 0 1rem rgba(0,0,0,0.3); 
     font-size:8vmin;/*8vmin means 8% of viewport width or height, so it will be responsive */
     color: #34063f;
+    background-color: white;/*disable ayyaka color violet lo ki marutundhi ,ala avvakunda vundadaniki white color pettam */
 }
 #reset{
     padding:1rem;
@@ -48,7 +49,7 @@ body{
 }
 .msg-container{
     margin-bottom:1.5rem;
-   height:30vmin;
+   height:40vmin;
 }
 #new{
     padding:1rem;
