@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+  
+.container{
+    width:40rem;
+    height:30rem;
+    border:2px solid #696666f6;
+    border-radius:2rem;
+    padding:0.5rem 1rem;
+}
+.container:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+}
+h2{
+    text-align:center;
+    font-size:1.5rem;
+    margin-bottom:0.75rem;
+}
+.sidebar{
+    width:20rem;
+    height:15rem;
+    border: 2px solid rgb(199, 192, 192)
+}
+.sidebar{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+} /*Note: on hover appudu, kakunda normal ga kuda box shadow pettachu */
+
+.display{
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+}
+.settings{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    
+}
+.settings>button{
+    padding:0.75rem;
+    border-radius:0.5rem;
+    font-size:0.90rem;
+    margin-top:1rem;
+    margin-bottom:2.5rem;
+   
+}
+/* Note: input type="color" ki utta width and height iste saripodhu,,border,width,height,padding, -->edhe change cheyyali ani anna webkit vadalsindhe */
+/*just try only input type="color" and see the difference */
+input[type="color"] {
+    -webkit-appearance: none;  /* Remove browser's default look */
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    margin:0 auto;/* Center the color input */
+    /* or type="color" parent element ki text-align: center; use cheyyachu */
+  }
+  
+  input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0.25x;  /* No extra space */
+  }
+  
+  input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 0.5rem;  /* Rounded corners */
+  }
+  
+.settings h4{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.settings>input[type="text"]{
+    padding:0.5rem;
+    border-radius:0.5rem;
+    font-size:0.90rem;
+    width:100%;
+}
+
+#name2{
+    margin:2rem;
+}
+
+#select *{  /*    * → selects all elements inside it  */
+    margin-bottom:1.25rem;
+}
+.settings>h4{
+    font-size:1.1rem;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Keep only gap */
+    padding-top: 1px; /* Prevent margin collapse */
+  }
+  
+  .left > div {
+    padding-bottom: 0; /* Remove this if using gap */
+  }
+  
