@@ -8,9 +8,8 @@
 </head>
 <body>
      <h1>Background Color Changer</h1>
-     <div class="total"></div>
-    
-     <div class="left">
+    <div class="total">
+        <div class="left">
             <div class="container">
                 <h2>Using Random Color Generator</h2>
                 <div class="display">
@@ -19,12 +18,13 @@
                         <button id="changeColor">Generate & Change Background Color</button>
                         <p >Color Code of the color is:</p>
                         <input type="text" name="colorname" id="name1">
+                        <button>Add to fav color</button>
                     </div>
                 </div>
-            </div>
+        </div>
 
-            <div class="container">
-                <h3>Using Random Color Generator</h3>
+        <div class="container">
+                <h2>Selecting from type color</h2>
                 <div class="display">
                     <div class="sidebar" id="two" ></div>
                     <div class="settings" id="select">
@@ -34,11 +34,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+    
+        <div class="right">
+            <h2 style="text-algn:center;" id="style">Favorite Colors</h2>
+            <div class="row">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+        </div>
+
     </div>
-
-    <div class="right"></div>
-
-
 
     <script src="script3.js"></script>
 </body>

@@ -5,25 +5,33 @@
    
 }
   
+/*.left{
+    display:flex;
+}*/
 .container{
     width:40rem;
-    height:30rem;
+    height:19rem;
     border:2px solid #696666f6;
     border-radius:2rem;
     padding:0.5rem 1rem;
+    margin-bottom:1rem;
 }
 .container:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 body{
     height:100vh;
-    display:flex;
+   display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:1rem;
+    gap:1rem; 
+    overflow:auto;
 }
-h2{
+h1{
+    margin-top:1.6rem;
+}
+.hello{
     text-align:center;
     font-size:1.5rem;
     margin-bottom:0.75rem;
@@ -93,22 +101,53 @@ input[type="color"] {
 }
 
 #select *{  /*    * → selects all elements inside it  */
-    margin-bottom:1.25rem;
+    margin-bottom:1rem;
 }
 .settings>h4{
     font-size:1.1rem;
 }
-
-
-.left {
-    display: flex;
-    flex-direction: column;
+.left{
+    gap:1rem;
+}
+.left > div{
+    padding-bottom:1rem;
+}
+.total{
+    width:90%;
+    height:auto;
+    display:flex;
     align-items: center;
-    gap: 1rem; /* Keep only gap */
-    padding-top: 1px; /* Prevent margin collapse */
-  }
-  
-  .left > div {
-    padding-bottom: 0; /* Remove this if using gap */
-  }
-  
+    justify-content: center;
+    gap:3rem;
+}
+.right{
+    height:98%;
+    width:50%;
+    border:2px solid #696666f6;
+    display:flex;
+    flex-wrap: wrap;
+}
+.row > div {
+    width:6rem;
+    height:0.5rem;
+    padding:1rem;
+    margin:2rem;
+    border:2px solid #696666f6;
+    border-radius:1rem;
+}
+#one *{
+    margin:0.5rem;
+}
+#style
+{
+    margin:5px ;
+    padding:0;
+    height:2rem;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    
+
+}
