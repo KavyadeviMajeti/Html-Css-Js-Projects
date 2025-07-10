@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="total">
-        <form>
+        <form action="" id="form">
             <div class="header">
                 <h1>Registration form </h1>
             </div>
@@ -17,29 +17,29 @@
                 <div class="field">
                     <label for="uname" >User Name:</label><br/>
                     <input type="text" id="uname" name="uname" placeholder="username"/>
-                    <span class="material-symbols-outlined">check_circle</span>
-                    <span class="material-symbols-outlined"> error</span>
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error"> error</span>
                     <small>error message</small>
                 </div>
                 <div class="field">
-                    <label for="email" placeholder="email">Email:</label><br/>
-                    <input type="email" id="email" name="email"/>
-                    <span class="material-symbols-outlined">check_circle</span>
-                    <span class="material-symbols-outlined"> error</span>
+                    <label for="email" >Email:</label><br/>
+                    <input type="email" id="email" name="email" placeholder="email"/>
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error"> error</span>
                     <small>error message</small>
                 </div>
                 <div class="field">
                     <label for="password" >Password:</label><br/>
                     <input type="password" id="password" name="password" placeholder="password"/>
-                    <span class="material-symbols-outlined">check_circle</span>
-                    <span class="material-symbols-outlined"> error</span>
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error"> error</span>
                     <small>error message</small>
                 </div>
                 <div class="field">
                     <label for="confirm-password" >Confirm Password:</label><br/>
                     <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm-password"/>
-                    <span class="material-symbols-outlined">check_circle</span>
-                    <span class="material-symbols-outlined"> error</span>
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error"> error</span>
                     <small>error message</small>
                 </div>
                 <div class="field checkbox">
@@ -47,9 +47,10 @@
                     <label>I agree to all terms and conditions</label><br/>
                     
                 </div>
-                <input type="submit" value="submit" >
+                <input type="submit" value="submit" id="submit">
             </div>
         </form>
     </div>
+    <script src="scritpt4.js"></script>
 </body>
 </html>
